@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
+<style>
+  .skills-section h2 {
+    color: #4b2e83;
+  }
+</style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>Course homepage - Heading hierarchy example</title>
@@ -22,56 +28,57 @@
       <h2>About me / Course goal</h2>
       <p>My name is Daria Cotoc. I am in the first year of Computer Science at UVT. My goal for this course is to learn the basics of HTML and CSS so that I can have a very solid base for which to build my skills even more in the years to come.</p>
     </section>
-    <section>
-  <h2>Personal Skills</h2>
 
-  <table border="1">
-    <caption>Personal Skills</caption>
+    <section class="skills-section">
+  <h2 style="margin-bottom: 12px;">Personal Skills</h2>
+
+  <table class="skills-table">
+    <caption> Personal Skills </caption>
     <thead>
       <tr>
         <th scope="col" colspan="3">Personal Skills</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <th scope="row" rowspan="3">Programming</th>
-        <td>Advanced</td>
-        <td>JavaScript</td>
-      </tr>
-      <tr>
-        <td>Intermediate</td>
-        <td>C/C++</td>
-      </tr>
-      <tr>
-        <td>-</td>
-        <td>Java</td>
-      </tr>
+   <tbody>
+  <tr>
+    <th scope="row" rowspan="3">Programming</th>
+    <td>Python</td>
+    <td>JavaScript</td>
+  </tr>
+  <tr>
+    <td>C/C++</td>
+    <td>Java</td>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>-</td>
+  </tr>
 
-      <tr>
-        <th scope="row" rowspan="4">Design</th>
-        <td colspan="2">Figma</td>
-      </tr>
-      <tr>
-        <td colspan="2">Canva</td>
-      </tr>
-      <tr>
-        <td colspan="2">Photoshop</td>
-      </tr>
-      <tr>
-        <td colspan="2">UI/UX</td>
-      </tr>
+  <tr>
+    <th scope="row" rowspan="4">Design</th>
+    <td colspan="2">Figma</td>
+  </tr>
+  <tr>
+    <td colspan="2">Adobe XD</td>
+  </tr>
+  <tr>
+    <td colspan="2">Photoshop</td>
+  </tr>
+  <tr>
+    <td colspan="2">UI/UX</td>
+  </tr>
 
-      <tr>
-        <th scope="row">Other</th>
-        <td colspan="2">Git</td>
-      </tr>
-    </tbody>
+  <tr>
+    <th scope="row">Other</th>
+    <td colspan="2">Git</td>
+  </tr>
+</tbody>
   </table>
 </section>
 <section>
   <h2>Personal Projects Portfolio</h2>
 
-  <table border="1">
+  <table>
     <caption>Personal Projects Portfolio</caption>
     <thead>
       <tr>
