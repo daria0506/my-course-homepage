@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f0ff;
+  margin: 0;
+  padding: 40px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.card {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.card-title {
+  font-size: 28px;
+  color: #5b21b6;
+  margin-top: 12px;
+}
+
+.card-text {
+  color: #444;
+  font-size: 16px;
+}
+
+.card-image {
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#card-container {
+  border: 2px solid #d8b4fe;
+}
+
+#full-name {
+  letter-spacing: 1px;
+}
+
+#specialization {
+  font-style: italic;
+}
+
+#email-link {
+  color: #7c3aed;
+}
+
+#github-link {
+  color: #2563eb;
+}
