@@ -1,0 +1,9 @@
+Paragraph A uses only the element selector (p), so it receives all its styles from p. 
+Paragraph B uses both p and the class selector .info, and since class selectors are more specific than element selectors, .info overrides conflicting properties. 
+Paragraph C uses p and the id selector #warning, and because id selectors have higher specificity, #warning overrides p.
+
+Paragraph D matches p, .info, #warning, and #warning.info. The browser uses color: darkorange from #warning.info because it is the most specific selector. 
+For font-family, #warning wins because #warning.info does not define it, and id selectors override class and element selectors.
+
+For the h1 element which appears blue, the internal CSS overrides the external CSS because internal styles have higher priority than external styles (unless inline CSS is used).
+
